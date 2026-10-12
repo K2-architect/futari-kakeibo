@@ -1,0 +1,12 @@
+# Apps Script のソースは公開しない（手元だけで clasp 同期する）
+gas/
+
+# 実データ・手元だけのものは入れない
+data/
+snapshots/
+*.local.*
+*.csv
+*.xlsx
+.env
+.DS_Store
+node_modules/
